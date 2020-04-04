@@ -1,0 +1,2 @@
+rootProject.name='StatsGAA'
+include ':app'

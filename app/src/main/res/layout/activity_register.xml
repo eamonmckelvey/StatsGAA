@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutName"
+        android:layout_width="352dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/enterName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enterName"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="52dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInpuEditTextEmail"
+        android:layout_width="352dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayoutName">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/enterEmail"
+            android:layout_width="374dp"
+            android:layout_height="34dp"
+            android:hint="enterEmail"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="144dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutPassword"
+        android:layout_width="352dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInpuEditTextEmail">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/enterPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enterPassword"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="279dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutConfirmPassword"
+        android:layout_width="352dp"
+        android:layout_height="68dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayoutPassword"
+        app:layout_constraintVertical_bias="0.055">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/confirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:hint="confirmPassword"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="348dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayoutConfirmPassword" />
+
+    <TextView
+        android:id="@+id/appCombatTextViewLoginLink"
+        android:layout_width="115dp"
+        android:layout_height="47dp"
+        android:text="Login"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/Register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayoutConfirmPassword"
+        android:layout_gravity="center_horizontal" />
+</androidx.constraintlayout.widget.ConstraintLayout>
