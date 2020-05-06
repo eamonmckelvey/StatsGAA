@@ -18,7 +18,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 
-public class ListDataActivity extends AppCompatActivity {
+/*public class ListDataActivity extends AppCompatActivity {
 
     private static final String TAG = "ListDataActivity";
 
@@ -84,8 +84,8 @@ public class ListDataActivity extends AppCompatActivity {
      * customizable toast
      * @param message
      */
-    private void toastMessage(String message){
-        Toast.makeText(this,message, Toast.LENGTH_SHORT).show();
-    }
+    //private void toastMessage(String message){
+   //     Toast.makeText(this,message, Toast.LENGTH_SHORT).show();
+  // }
 
-}
+//}

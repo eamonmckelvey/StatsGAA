@@ -50,13 +50,12 @@ public class Notes extends AppCompatActivity {
             }
         });
 
-        btnView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Notes.this, ListDataActivity.class);
-                startActivity(intent);
-            }
-        });
+        //btnView.setOnClickListener(new View.OnClickListener() {
+            //@Override
+//       //        // Intent intent = new Intent(Notes.this, ListDataActivity.class);
+               // startActivity(intent);
+          //  }
+       // });
 
 
     }

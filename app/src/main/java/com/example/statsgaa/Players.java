@@ -121,10 +121,6 @@ public class Players extends AppCompatActivity {
 
 
 
-
-
-
-
     private void openAddPlayersActivity(){
 
         Intent intent = new Intent(this, addPlayers.class);
